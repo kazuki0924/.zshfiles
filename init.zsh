@@ -1,10 +1,11 @@
 __source() {
-  for FILE in ~/.config/"$1"/*.zsh; do
-    [[ ! $FILE == *init.zsh ]] && source $FILE
+  for FILE in ~/.zshfiles/"$1"/*.zsh; do
+    source $FILE
   done
 }
 
-__source "zsh/before"
-__source "zsh"
-__source "zsh/after"
+__source "before"
+__source "after_before"
+__source "after"
+__source "after_after"
 unset -f __source
