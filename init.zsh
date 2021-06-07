@@ -1,6 +1,6 @@
 __source() {
   for FILE in ~/.config/"$1"/*.zsh; do
-    [[ ! $FILE == *main.zsh ]] && source $FILE
+    [[ ! $FILE == *init.zsh ]] && source $FILE
   done
 }
 
