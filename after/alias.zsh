@@ -119,3 +119,6 @@ alias plb="/usr/libexec/PlistBuddy -c"
 
 # bash
 alias b="bash"
+
+# dotscripts
+alias oryx=""$HOME/.dotscripts/hotkeys/run_command_on_alacritty_new_instance.sh" "$HOME/.dotscripts/tasks/moonlander_oryx_wally.sh""
