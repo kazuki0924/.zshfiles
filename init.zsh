@@ -4,6 +4,7 @@ __source() {
   done
 }
 
+__source "before_before"
 __source "before"
 __source "after_before"
 __source "after"
