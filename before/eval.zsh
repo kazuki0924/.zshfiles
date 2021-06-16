@@ -1,3 +1,6 @@
+# nodejs / fnm
+eval "$(fnm env)"
+
 # go / goenv
 eval "$(goenv init -)"
 export GOENV_ROOT="$HOME/.goenv"
@@ -9,9 +12,6 @@ eval "$(pyenv init --path)"
 eval "$(pyenv init -)"
 export PYENV_ROOT="$HOME/.pyenv"
 export PATH="$PYENV_ROOT/shims:$PATH"
-
-# nodejs / fnm
-eval "$(fnm env)"
 
 # dircolors / gdircolors
 eval "$(gdircolors $HOME/Miscellaneous/dircolors-solarized/dircolors.256dark)"

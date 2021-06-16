@@ -4,6 +4,8 @@ __source() {
   done
 }
 
+eval "$(fnm env)"
+
 __source "before_before"
 __source "before"
 __source "after_before"
