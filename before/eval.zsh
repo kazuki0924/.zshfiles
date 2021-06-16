@@ -12,7 +12,6 @@ export PATH="$PYENV_ROOT/shims:$PATH"
 
 # nodejs / fnm
 eval "$(fnm env)"
-export PATH="$PATH:$HOME/.fnm"
 
 # dircolors / gdircolors
 eval "$(gdircolors $HOME/Miscellaneous/dircolors-solarized/dircolors.256dark)"
