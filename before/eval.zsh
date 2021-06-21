@@ -1,6 +1,3 @@
-# nodejs / fnm
-eval "$(fnm env)"
-
 # go / goenv
 eval "$(goenv init -)"
 export GOENV_ROOT="$HOME/.goenv"
