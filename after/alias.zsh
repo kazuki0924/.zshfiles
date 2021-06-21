@@ -25,6 +25,8 @@ alias gpush="git push origin HEAD"
 alias gpull="git pull origin master"
 alias gf="git fetch origin"
 alias grs="git reset --soft HEAD~1"
+alias gam="git commit --amend"
+alias gfwl="git push --force-with-lease"
 
 # vsc
 alias vsc="code-insiders ."
