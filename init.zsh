@@ -1,15 +1,19 @@
 # before
-. ./before/tmux.zsh
-. ./before/p10k.zsh
-. ./before/zinit.zsh
-. ./before/usr_local_bin_to_first.zsh
-. ./before/env.zsh
-. ./before/eval.zsh
-. ./before/bin_bash_to_last.zsh
+source ~/.zshfiles/before/tmux.zsh
+source ~/.zshfiles/before/p10k.zsh
+source ~/.zshfiles/before/zinit.zsh
+source ~/.zshfiles/before/usr_local_bin_to_first.zsh
+source ~/.zshfiles/before/env.zsh
+source ~/.zshfiles/before/eval.zsh
+source ~/.zshfiles/before/bin_bash_to_last.zsh
 
-for FILE in ~/.zshfiles/[!init]*.zsh; do
+for FILE in ~/.zshfiles/*.zsh; do
+  [[ "$FILE" == *init.zsh ]] && continue
+  [[ "$FILE" == *.p10k.zsh ]] && continue
+  echo $FILE
+  
   source $FILE
 done
   
 # after
-. ./after/plugins.zsh
+source ~/.zshfiles/after/plugins.zsh
