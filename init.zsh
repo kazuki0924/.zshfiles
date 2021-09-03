@@ -10,8 +10,6 @@ source ~/.zshfiles/before/bin_bash_to_last.zsh
 for FILE in ~/.zshfiles/*.zsh; do
   [[ "$FILE" == *init.zsh ]] && continue
   [[ "$FILE" == *.p10k.zsh ]] && continue
-  echo $FILE
-  
   source $FILE
 done
   
