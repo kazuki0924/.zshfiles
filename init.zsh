@@ -1,14 +1,14 @@
-__source() {
-  for FILE in ~/.zshfiles/"$1"/*.zsh; do
-    source $FILE
-  done
-}
+# before
+. ./before/tmux.zsh
+. ./before/path.zsh
+. ./before/p10k.zsh
+. ./before/zinit.zsh
+. ./before/env.zsh
+. ./before/eval.zsh
 
-eval "$(fnm env)"
-
-__source "before_before"
-__source "before"
-__source "after_before"
-__source "after"
-__source "after_after"
-unset -f __source
+for FILE in ~/.zshfiles/[!init]*.zsh; do
+  source $FILE
+done
+  
+# after
+. ./after/plugins.zsh
