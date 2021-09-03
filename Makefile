@@ -13,8 +13,8 @@ endif
 all: setup
 
 symlink:
-> @ ln -sfnv "$$HOME/.zshfiles/.zshrc" "$$HOME/.zshrc"
-> @ ln -sfnv "$$HOME/.zshfiles/.p10k.zsh" "$$HOME/.p10k.zsh"
+> @ ln -sfnv ~/.zshfiles/.zshrc ~/.zshrc
+> @ ln -sfnv ~/.zshfiles/.p10k.zsh ~/.p10k.zsh
 
 .PHONY: symlink
 
