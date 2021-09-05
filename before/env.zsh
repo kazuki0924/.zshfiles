@@ -17,7 +17,8 @@ export PATH="$PATH:$HOME/.cargo/bin"
 export PATH="$PATH:/Applications/Alacritty.app/Contents/MacOS"
 
 # vs code
-# export PATH="/Applications/Visual\ Studio\ Code\ -\ Insiders.app/Contents/Resources/app/bin:$PATH"
+export PATH="/Applications/Visual\ Studio\ Code\ -\ Insiders.app/Contents/Resources/app/bin:$PATH"
+export PATH="/Applications/Visual\ Studio\ Code.app/Contents/Resources/app/bin:$PATH"
 
 # nnn
 export NNN_OPTS="acdfrwAFH"

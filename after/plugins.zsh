@@ -31,9 +31,9 @@ zinit wait"1" lucid for \
   supercrabtree/k
 
 __zinit_last_completion_related_plugin() {
-  # ZINIT[COMPINIT_OPTS]=-C
-  # zicompinit
-  # zicdreplay
+#   ZINIT[COMPINIT_OPTS]=-C
+#   zicompinit
+#   zicdreplay
 }
 
 # fast-syntax-highlighting

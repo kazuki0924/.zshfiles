@@ -8,10 +8,12 @@ source ~/.zshfiles/before/eval.zsh
 source ~/.zshfiles/before/bin_bash_to_last.zsh
 
 for FILE in ~/.zshfiles/*.zsh; do
-  [[ "$FILE" == *init.zsh ]] && continue
   [[ "$FILE" == *.p10k.zsh ]] && continue
-  source $FILE
+  [[ "$FILE" == *init.zsh ]] && continue
+	source $FILE
 done
   
 # after
+source ~/.zshfiles/after/annex.zsh
 source ~/.zshfiles/after/plugins.zsh
+source ~/.zshfiles/after/zinit.zsh
