@@ -6,7 +6,8 @@ zinit wait lucid for \
   agkozak/zsh-z \
   peterhurford/up.zsh \
   aperezdc/zsh-fzy \
-  hlissner/zsh-autopair
+  hlissner/zsh-autopair \
+  softmoth/zsh-vim-mode
 
 # CTRL-T: Place the selected file path in the command line
 bindkey '^T' fzy-file-widget

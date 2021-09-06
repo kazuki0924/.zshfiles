@@ -6,9 +6,6 @@ export PAGER="less -R"
 export LC_ALL="en_US.UTF-8"
 export LC_CTYPE="en_US.UTF-8"
 export LANG="en_US.UTF-8"
-export IFS=$'\n\t'
-
-# also check ~/.config/zsh/eval.zsh for PATH
 
 # rust / cargo
 export PATH="$PATH:$HOME/.cargo/bin"
@@ -42,3 +39,11 @@ export RIPGREP_CONFIG_PATH="$HOME/.ripgreprc"
 export PATH="/usr/local/opt/make/libexec/gnubin:$PATH"
 export PATH="/usr/local/opt/gnu-getopt/bin:$PATH"
 export FLAGS_GETOPT_CMD="$(brew --prefix gnu-getopt)/bin/getopt"
+
+# zsh-vim-mode
+export MODE_CURSOR_VIINS="#00ff00 blinking bar"
+export MODE_CURSOR_REPLACE="#00ff00 blinking block"
+export MODE_CURSOR_VICMD="#00ff00 blinking underline"
+export MODE_CURSOR_SEARCH="#00ff00 blinking underline"
+export MODE_CURSOR_VISUAL="#00ff00 blinking underline"
+export MODE_CURSOR_VLINE="#00ff00 blinking underline"
