@@ -7,3 +7,5 @@ if [[ ! -f $HOME/.zinit/bin/zinit.zsh ]]; then
         print -P "%F{160}▓▒░ The clone has failed.%f%b"
 fi
 ### End of Zinit's installer chunk
+
+source ~/.zinit/bin/zinit.zsh

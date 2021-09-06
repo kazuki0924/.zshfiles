@@ -10,10 +10,12 @@ source ~/.zshfiles/before/bin_bash_to_last.zsh
 for FILE in ~/.zshfiles/*.zsh; do
   [[ "$FILE" == *.p10k.zsh ]] && continue
   [[ "$FILE" == *init.zsh ]] && continue
-	source $FILE
+  source $FILE
 done
-  
+
 # after
-source ~/.zshfiles/after/annex.zsh
-source ~/.zshfiles/after/plugins.zsh
 source ~/.zshfiles/after/zinit.zsh
+source ~/.zshfiles/after/annex.zsh
+source ~/.zshfiles/after/themes.zsh
+source ~/.zshfiles/after/snippets.zsh
+source ~/.zshfiles/after/plugins.zsh
