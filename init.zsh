@@ -18,4 +18,5 @@ source ~/.zshfiles/after/zinit.zsh
 source ~/.zshfiles/after/annex.zsh
 source ~/.zshfiles/after/themes.zsh
 source ~/.zshfiles/after/snippets.zsh
+source ~/.zshfiles/after/completion.zsh
 source ~/.zshfiles/after/plugins.zsh
