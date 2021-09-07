@@ -22,11 +22,11 @@ alias yui="yarn upgrade-interactive --latest"
 alias ga="git add --all"
 alias gc="git commit -m "
 alias gpush="git push origin HEAD"
-alias gpull="git pull origin master"
+alias gpull="git pull origin HEAD"
 alias gf="git fetch origin"
-alias grs="git reset --soft HEAD~1"
-alias gam="git commit --amend"
-alias gfwl="git push --force-with-lease"
+alias grsh1="git reset --soft HEAD~1"
+alias gca="git commit --amend"
+alias gpfwl="git push --force-with-lease"
 
 # vsc
 alias vsc="code-insiders ."
@@ -88,9 +88,6 @@ alias n="nnn"
 alias np="nnn -P p"
 alias nn='tmux split-window -h -d "nnn -$NNN_OPTS" && nnn'
 
-# zsh-diff-so-fancy
-alias gdsf="git dsf"
-
 # macOS
 alias on="open -n -a"
 alias ons="open -n -a Slack"
@@ -99,9 +96,6 @@ alias finder="open ."
 # neovim
 alias v="nvim"
 alias vim="nvim"
-
-# dotfiles
-alias sym="cd ~/.dotfiles && make symlink"
 
 # terminal
 # clear screen buffer
@@ -123,7 +117,8 @@ alias plb="/usr/libexec/PlistBuddy -c"
 alias b="bash"
 
 # dotscripts
-alias oryx=""$HOME/.dotscripts/hotkeys/run_command_on_alacritty_new_instance.sh" "$HOME/.dotscripts/tasks/moonlander_oryx_wally.sh""
+alias oryx="$HOME/.dotscripts/tasks/moonlander_oryx_wally.sh"
+alias oryxn=""$HOME/.dotscripts/hotkeys/run_command_on_alacritty_new_instance.sh" "$HOME/.dotscripts/tasks/moonlander_oryx_wally.sh""
 
 # killall
 alias kac="killall "Google Chrome""
