@@ -10,10 +10,18 @@ export LANG="en_US.UTF-8"
 # rust / cargo
 export PATH="$PATH:$HOME/.cargo/bin"
 
+# Android Studio
+export ANDROID_SDK_ROOT="$HOME/Library/Android/sdk"
+export ANDROID_HOME="$HOME/Library/Android/sdk"
+export PATH="$PATH:$ANDROID_SDK_ROOT/platform-tools"
+export PATH="$PATH:$ANDROID_SDK_ROOT/emulator"
+export PATH="$PATH:$ANDROID_SDK_ROOT/tools"
+export PATH="$PATH:$ANDROID_SDK_ROOT/tools/bin"
+
 # alacritty
 export PATH="$PATH:/Applications/Alacritty.app/Contents/MacOS"
 
-# vs code
+# VS Code
 export PATH="/Applications/Visual\ Studio\ Code\ -\ Insiders.app/Contents/Resources/app/bin:$PATH"
 export PATH="/Applications/Visual\ Studio\ Code.app/Contents/Resources/app/bin:$PATH"
 

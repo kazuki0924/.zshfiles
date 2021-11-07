@@ -28,10 +28,17 @@ alias grsh1="git reset --soft HEAD~1"
 alias gca="git commit --amend"
 alias gpfwl="git push --force-with-lease"
 
+# make
+alias m="make"
+alias ms="make symlink"
+
 # vsc
 alias vsc="code-insiders ."
 alias vsch="cd && code-insiders ."
 alias vscd="cd && code-insiders ~/.dotfiles"
+
+# ssh
+alias sshcv="nvim ~/.ssh/config"
 
 # misc
 alias air='$(go env GOPATH)/bin/air'
@@ -73,7 +80,6 @@ alias pip="pip3"
 alias python="python3"
 
 # trash-cli
-alias rm='echo "This is not the command you are looking for."; false'
 alias t="trash-put -v"
 alias te="trash-empty"
 alias tls="trash-list"
@@ -123,3 +129,18 @@ alias oryxn=""$HOME/.dotscripts/hotkeys/run_command_on_alacritty_new_instance.sh
 # killall
 alias kac="killall "Google Chrome""
 alias kaa="killall alacritty"
+
+# vagrant
+alias vg="vagrant"
+alias vgv="vagrant version"
+alias vgi="vagrant init"
+alias vgd="vagrant destroy"
+alias vgu="vagrant up"
+alias vgup="vagrant up --provision" 
+alias vgs="vagrant ssh" 
+
+# terraform
+alias tf="terraform"
+alias tfv="terraform version"
+alias tfi="terraform init"
+alias tfd="terraform destroy"

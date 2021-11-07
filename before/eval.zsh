@@ -20,3 +20,7 @@ eval "$(gdircolors $HOME/Miscellaneous/dircolors-solarized/dircolors.256dark)"
 if [ "$TERM_PROGRAM" = "iTerm.app" ] && [ -e $HOME/.iterm2_shell_integration.zsh ]; then
   source $HOME/.iterm2_shell_integration.zsh
 fi
+
+# sdkman
+export SDKMAN_DIR="$HOME/.sdkman"
+[[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
