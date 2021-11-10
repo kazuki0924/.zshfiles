@@ -19,6 +19,9 @@ alias yu="yarn upgrade"
 alias yui="yarn upgrade-interactive --latest"
 
 # git
+alias g="lazygit"
+alias gp="git push"
+alias gP="git pull"
 alias gfo="git fetch origin"
 alias gaa="git add --all"
 alias gcm="git commit -m "
