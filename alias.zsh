@@ -73,6 +73,9 @@ alias tn="tmux new-session -d && tmux switch-client -n"
 alias tkl="tmux kill-pane -t \$(tmux list-panes | wc -l) && source ~/.zshrc"
 alias tp3="tmux splitw && tmux splitw -h && tmux resizep -t 0 -y \$(expr \$(tmux display -p '#{window_height}') / 3)"
 
+# tmuxinator
+alias mux="tmuxinator"
+
 # lsd
 alias l="lsd -1 -a -l"
 
