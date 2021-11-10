@@ -18,10 +18,18 @@ alias yt="yarn test"
 alias yu="yarn upgrade"
 alias yui="yarn upgrade-interactive --latest"
 
+# docker
+alias d="docker"
+
+# aws
+alias a="aws"
+
 # git
 alias g="lazygit"
 alias gp="git push"
 alias gP="git pull"
+alias gS="git status"
+alias gd="git diff"
 alias gfo="git fetch origin"
 alias gaa="git add --all"
 alias gcm="git commit -m "
@@ -83,11 +91,14 @@ alias elt='exa --tree --level=2' # tree
 
 # homebrew
 # install these homebrew formula globally:
-alias bb="brew bundle --no-lock"
+alias hb="brew bundle --no-lock"
 # list all installed homebrew formula not in this brewfile:
-alias bbcl="brew bundle cleanup"
+alias hbcl="brew bundle cleanup"
 # uninstall all installed homebrew formula not in this brewfile:
-alias bbc="brew bundle cleanup --force"
+alias hbc="brew bundle cleanup --force"
+alias hi="brew install"
+alias hs="brew search"
+
 
 # python
 alias pip="pip3"
@@ -112,6 +123,8 @@ alias nn='tmux split-window -h -d "nnn -$NNN_OPTS" && nnn'
 alias on="open -n -a"
 alias ons="open -n -a Slack"
 alias finder="open ."
+alias f="open ."
+alias c="pbcopy"
 
 # neovim
 alias v="nvim"
@@ -158,3 +171,11 @@ alias tf="terraform"
 alias tfv="terraform version"
 alias tfi="terraform init"
 alias tfd="terraform destroy"
+
+alias -g A="| awk"
+alias -g C="| pbcopy"
+alias -g W="| wc -l"
+alias -g G="| grep --color=auto"
+alias -g H="| head"
+alias -g L="| less -R"
+alias -g X="| xargs"
