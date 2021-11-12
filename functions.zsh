@@ -1,11 +1,5 @@
 function git_add_commit_push {
-  printf "zsh function executing following:\n\ngit add --all\ngit commit -m \$@\ngit push origin HEAD\n\n"
-  echo git add .
-  echo git commit -m
-  echo Commit Message: "$@"
-  echo git push origin HEAD
-  readonly COMMENT=${@:?"The comment cannot be empty."}
-
+  declare -r COMMENT="${@:?"The comment cannot be empty."}"
   git add .
   git commit -m "$COMMENT"
   git push origin HEAD
