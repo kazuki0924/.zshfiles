@@ -20,3 +20,4 @@ source ~/.zshfiles/after/themes.zsh
 source ~/.zshfiles/after/snippets.zsh
 source ~/.zshfiles/after/completion.zsh
 source ~/.zshfiles/after/plugins.zsh
+source ~/.zshfiles/after/fzf.zsh

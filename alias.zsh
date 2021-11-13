@@ -176,6 +176,11 @@ alias tfv="terraform version"
 alias tfi="terraform init"
 alias tfd="terraform destroy"
 
+# fzf
+alias f="fzf"
+alias fgc="git for-each-ref --format='%(refname:short)' refs/heads | fzf | xargs git checkout"
+
+# global
 alias -g A="| awk"
 alias -g C="| pbcopy"
 alias -g W="| wc -l"
