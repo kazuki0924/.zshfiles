@@ -177,8 +177,9 @@ alias tfi="terraform init"
 alias tfd="terraform destroy"
 
 # fzf
-alias f="fzf"
+alias f="fzf --preview 'bat --style=numbers --color=always --line-range :500 {}'"
 alias fgc="git for-each-ref --format='%(refname:short)' refs/heads | fzf | xargs git checkout"
+# alias fgc="git for-each-ref --format='%(refname:short)' refs/heads | fzf --height 40% --layout reverse --info inline --border | xargs git checkout"
 
 # global
 alias -g A="| awk"

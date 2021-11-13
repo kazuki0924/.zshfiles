@@ -46,7 +46,8 @@ export RIPGREP_CONFIG_PATH="$HOME/.ripgreprc"
 # fzf
 export FZF_COMPLETION_TRIGGER="\`\`"
 export FZF_DEFAULT_OPTS="--height 40% --layout=reverse --border --info=inline"
-export FZF_DEFAULT_COMMAND="fd --type f"
+export FZF_DEFAULT_COMMAND="fd --type f --hidden --follow --exclude .git"
+export FZF_CTRL_T_COMMAND="${FZF_DEFAULT_COMMAND}"
 
 # gnu
 export PATH="/usr/local/opt/make/libexec/gnubin:$PATH"

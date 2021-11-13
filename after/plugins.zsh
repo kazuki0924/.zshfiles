@@ -7,6 +7,7 @@ zinit wait lucid for \
   peterhurford/up.zsh \
   aperezdc/zsh-fzy \
   hlissner/zsh-autopair \
+  wfxr/forgit \
   softmoth/zsh-vim-mode
 
 # CTRL-T: Place the selected file path in the command line
