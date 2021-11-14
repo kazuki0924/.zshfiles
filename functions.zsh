@@ -269,3 +269,15 @@ _fzf_comprun() {
     *)            fzf "$@" ;;
   esac
 }
+
+wb() {
+  run="clear && printf '\e[3J' && bash"
+
+  [[ -n $@ ]] && args=$@ || args="repl.sh"
+
+  eval "$run $args"
+  watchman-make \
+      -p '*.sh' \
+      --make="$run" \
+      -t "$args" 
+}
