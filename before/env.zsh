@@ -61,3 +61,6 @@ export MODE_CURSOR_VICMD="#00ff00 blinking underline"
 export MODE_CURSOR_SEARCH="#00ff00 blinking underline"
 export MODE_CURSOR_VISUAL="#00ff00 blinking underline"
 export MODE_CURSOR_VLINE="#00ff00 blinking underline"
+
+# forgit
+export FORGIT_NO_ALIASES="0"

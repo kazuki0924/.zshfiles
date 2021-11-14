@@ -1,1 +1,1 @@
-source ~/.zshfiles/after/fzf.zsh
+source /usr/local/opt/fzf/shell/key-bindings.zsh

@@ -22,3 +22,4 @@ source ~/.zshfiles/after/themes.zsh
 source ~/.zshfiles/after/completion.zsh
 source ~/.zshfiles/after/plugins.zsh
 source ~/.zshfiles/after/remote_file.zsh
+source ~/.zshfiles/after/bindkey.zsh
