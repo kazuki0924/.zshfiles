@@ -10,4 +10,3 @@ alias ela='exa -lbhHigUmuSa --time-style=long-iso --git --color-scale' # all lis
 alias ex='exa -lbhHigUmuSa@ --time-style=long-iso --git --color-scale' # all + extended list
 alias elS='exa -1'                                                     # one column, just names
 alias elt='exa --tree --level=2'                                       # tree
-

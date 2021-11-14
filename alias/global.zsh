@@ -7,4 +7,3 @@ alias -g H="| head"
 alias -g L="| less -R"
 alias -g X="| xargs"
 alias -g V="| nvim"
-

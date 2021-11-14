@@ -1,3 +1,17 @@
+# alacritty
+export PATH="$PATH:/Applications/Alacritty.app/Contents/MacOS"
+
+# VS Code
+export PATH="/Applications/Visual\ Studio\ Code\ -\ Insiders.app/Contents/Resources/app/bin:$PATH"
+export PATH="/Applications/Visual\ Studio\ Code.app/Contents/Resources/app/bin:$PATH"
+
+# goenv
+export PATH="$GOROOT/bin:$PATH"
+export PATH="$PATH:$GOPATH/bin"
+
+# python
+export PATH="$PYENV_ROOT/shims:$PATH"
+
 # rust / cargo
 export PATH="$PATH:$HOME/.cargo/bin"
 
@@ -13,10 +27,6 @@ export PATH="$PATH:/Applications/Alacritty.app/Contents/MacOS"
 # VS Code
 export PATH="/Applications/Visual\ Studio\ Code\ -\ Insiders.app/Contents/Resources/app/bin:$PATH"
 export PATH="/Applications/Visual\ Studio\ Code.app/Contents/Resources/app/bin:$PATH"
-
-# gnu
-export PATH="/usr/local/opt/make/libexec/gnubin:$PATH"
-export PATH="/usr/local/opt/gnu-getopt/bin:$PATH"
 
 # dotscripts
 export PATH="$PATH:$HOME/.dotscripts/config"
