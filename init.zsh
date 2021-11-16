@@ -2,7 +2,6 @@
 source ~/.zshfiles/before/tmux.zsh
 source ~/.zshfiles/before/p10k.zsh
 source ~/.zshfiles/before/zinit.zsh
-source ~/.zshfiles/before/eval.zsh
 source ~/.zshfiles/env/general.zsh
 source ~/.zshfiles/env/staging.zsh
 source ~/.zshfiles/path/usr_local_bin_to_first.zsh
@@ -24,3 +23,9 @@ source ~/.zshfiles/after/completion.zsh
 source ~/.zshfiles/after/plugins.zsh
 source ~/.zshfiles/after/remote_file.zsh
 source ~/.zshfiles/after/bindkey.zsh
+
+eval_xenv() {
+  source ~/.zshfiles/before/eval.zsh
+}
+
+alias ex="eval_xenv"
