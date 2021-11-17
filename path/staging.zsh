@@ -12,6 +12,8 @@ export PATH="$PATH:$GOPATH/bin"
 # python
 export PATH="$PYENV_ROOT/shims:$PATH"
 
+# brew ruby
+
 # rust / cargo
 export PATH="$PATH:$HOME/.cargo/bin"
 
