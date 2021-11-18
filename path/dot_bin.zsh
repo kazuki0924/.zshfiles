@@ -1,2 +1,2 @@
 # PATH
-export PATH="/.dotfiles/.bin:${PATH//:\/bin//}:/bin"
+export PATH="$HOME/.dotfiles/.bin:${PATH}"

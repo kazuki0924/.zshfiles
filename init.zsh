@@ -5,6 +5,7 @@ source ~/.zshfiles/before/zinit.zsh
 source ~/.zshfiles/env/general.zsh
 source ~/.zshfiles/env/staging.zsh
 source ~/.zshfiles/path/usr_local_bin_to_first.zsh
+source ~/.zshfiles/path/dot_bin.zsh
 source ~/.zshfiles/path/staging.zsh
 source ~/.zshfiles/path/gnu.zsh
 source ~/.zshfiles/path/bin_bash_to_last.zsh
