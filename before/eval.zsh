@@ -9,4 +9,4 @@ eval "$(pyenv init -)"
 eval "$(fnm env)"
 
 # dircolors / gdircolors
-eval "$(gdircolors $HOME/Miscellaneous/dircolors-solarized/dircolors.256dark)"
+eval "$(gdircolors $HOME/.oss/dircolors-solarized/dircolors.256dark)"
