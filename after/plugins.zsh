@@ -30,7 +30,7 @@ zinit wait"0.1" lucid for \
   supercrabtree/k \
   atinit"__zsh-history-substring-search_config" \
   zsh-users/zsh-history-substring-search
-# zdharma/history-search-multi-word
+# zdharma-continuum/history-search-multi-word
 
 __zinit_last_completion_related_plugin() {
   ZINIT[COMPINIT_OPTS]=-C
@@ -43,7 +43,7 @@ __zinit_last_completion_related_plugin() {
 # zsh-autosuggestions
 zinit wait"0.2" lucid for \
   atinit"__zinit_last_completion_related_plugin" \
-  zdharma/fast-syntax-highlighting \
+  zdharma-continuum/fast-syntax-highlighting \
   blockf \
   zsh-users/zsh-completions \
   atinit"source ~/.zshfiles/after/bindkey.zsh" \
