@@ -28,5 +28,4 @@ source ~/.zshfiles/after/bindkey.zsh
 eval_xenv() {
   source ~/.zshfiles/before/eval.zsh
 }
-
-alias ex="eval_xenv"
+eval_xenv
