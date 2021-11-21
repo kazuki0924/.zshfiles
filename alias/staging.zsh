@@ -60,3 +60,6 @@ alias plb="/usr/libexec/PlistBuddy -c"
 # oryx
 alias oryx="$HOME/.dotscripts/tasks/moonlander_oryx_wally.sh"
 alias oryxn=""$HOME/.dotscripts/hotkeys/run_command_on_alacritty_new_instance.sh" "$HOME/.dotscripts/tasks/moonlander_oryx_wally.sh""
+
+# alacritty-themes
+alias at="npx alacritty-themes"
