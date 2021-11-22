@@ -13,6 +13,10 @@ export PATH="$PATH:$GOPATH/bin"
 export PATH="$PYENV_ROOT/shims:$PATH"
 
 # brew ruby
+export PATH="/usr/local/opt/ruby/bin:$PATH"
+export LDFLAGS="-L/usr/local/opt/ruby/lib"
+export CPPFLAGS="-I/usr/local/opt/ruby/include"
+export PKG_CONFIG_PATH="/usr/local/opt/ruby/lib/pkgconfig"
 
 # rust / cargo
 export PATH="$PATH:$HOME/.cargo/bin"
