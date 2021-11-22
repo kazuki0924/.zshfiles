@@ -73,3 +73,6 @@ alias eject="osascript -e 'tell application "Finder" to eject (every disk whose 
 # caffinate
 # 1hr
 alias c1="caffeinate -u -t 3600"
+
+# kill alacritty and tmux
+alias k="tmux kill-server & killall alacritty"
