@@ -1,7 +1,7 @@
 # git
 alias g="lazygit"
-alias gp="git push"
-alias gP="git pull"
+alias gp="git pull"
+alias gP="git push"
 alias gS="git status"
 alias gd="git diff"
 alias gfd="forgit::diff"

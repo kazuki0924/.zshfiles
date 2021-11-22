@@ -63,3 +63,13 @@ alias oryxn=""$HOME/.dotscripts/hotkeys/run_command_on_alacritty_new_instance.sh
 
 # alacritty-themes
 alias at="npx alacritty-themes"
+
+# m-cli
+alias m-cli="/usr/local/bin/m"
+
+# eject
+alias eject="osascript -e 'tell application "Finder" to eject (every disk whose ejectable is true)'"
+
+# caffinate
+# 1hr
+alias c1="caffeinate -u -t 3600"
