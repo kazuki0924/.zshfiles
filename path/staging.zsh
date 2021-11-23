@@ -18,6 +18,9 @@ export LDFLAGS="-L/usr/local/opt/ruby/lib"
 export CPPFLAGS="-I/usr/local/opt/ruby/include"
 export PKG_CONFIG_PATH="/usr/local/opt/ruby/lib/pkgconfig"
 
+# brew lua
+export PATH="/usr/local/opt/luajit-openresty/bin:$PATH"
+
 # rust / cargo
 export PATH="$PATH:$HOME/.cargo/bin"
 
