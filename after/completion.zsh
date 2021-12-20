@@ -18,6 +18,10 @@ zinit snippet https://github.com/alacritty/alacritty/blob/master/extra/completio
 zinit ice wait lucid as'completion'
 zinit snippet https://github.com/ohmyzsh/ohmyzsh/blob/master/plugins/terraform/_terraform
 
+# rg
+zinit ice wait lucid as'completion'
+zinit snippet https://github.com/BurntSushi/ripgrep/blob/master/complete/_rg
+
 # fnm
 zinit ice as"completion"
 zinit snippet "$HOME/.zshfiles/completions/_fnm"
