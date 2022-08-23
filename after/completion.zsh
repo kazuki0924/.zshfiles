@@ -22,6 +22,11 @@ zinit snippet https://github.com/ohmyzsh/ohmyzsh/blob/master/plugins/terraform/_
 zinit ice wait lucid as'completion'
 zinit snippet https://github.com/BurntSushi/ripgrep/blob/master/complete/_rg
 
+# asdf
+zinit ice wait lucid as'completion'
+zinit snippet https://github.com/asdf-vm/asdf/blob/master/completions/_asdf
+
+# fnm
 # fnm
 zinit ice as"completion"
 zinit snippet "$HOME/.zshfiles/completions/_fnm"
