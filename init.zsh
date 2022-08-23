@@ -26,10 +26,7 @@ source ~/.zshfiles/after/plugins.zsh
 source ~/.zshfiles/after/remote_file.zsh
 source ~/.zshfiles/after/bindkey.zsh
 
-eval_xenv() {
-  for FILE in ~/.zshfiles/xenv/*.zsh; do
-    source $FILE
-  done
-}
-eval_xenv
+for FILE in ~/.zshfiles/version-manager/*.zsh; do
+  source "${FILE}"
+done
 
