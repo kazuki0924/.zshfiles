@@ -27,9 +27,12 @@ zinit ice wait lucid as'completion'
 zinit snippet https://github.com/asdf-vm/asdf/blob/master/completions/_asdf
 
 # fnm
-# fnm
 zinit ice as"completion"
 zinit snippet "$HOME/.zshfiles/completions/_fnm"
 
 # fzf
 [[ $- == *i* ]] && source "/usr/local/opt/fzf/shell/completion.zsh" 2> /dev/null
+
+# aws-cli
+zinit ice wait lucid as'completion'
+zinit snippet https://github.com/aws/aws-cli/blob/develop/bin/aws_zsh_completer.sh
