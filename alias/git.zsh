@@ -1,4 +1,5 @@
 # git
+alias drop="git add --all && git stash -q && git stash drop -q"
 alias g="lazygit"
 alias gP="git push"
 alias gS="git status"
