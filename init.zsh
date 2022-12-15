@@ -26,7 +26,7 @@ source ~/.zshfiles/after/plugins.zsh
 source ~/.zshfiles/after/remote_file.zsh
 source ~/.zshfiles/after/bindkey.zsh
 
-for FILE in ~/.zshfiles/manager/*.zsh; do
+for FILE in ~/.zshfiles/version_manager/*.zsh; do
   source "${FILE}"
 done
 
