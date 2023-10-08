@@ -29,8 +29,8 @@ __zsh-history-substring-search_config() {
 zinit wait"0.1" lucid for \
   supercrabtree/k \
   atinit"__zsh-history-substring-search_config" \
-  zsh-users/zsh-history-substring-search
-# zdharma-continuum/history-search-multi-word
+  zsh-users/zsh-history-substring-search \
+  zdharma-continuum/history-search-multi-word
 
 __zinit_last_completion_related_plugin() {
   ZINIT[COMPINIT_OPTS]=-C

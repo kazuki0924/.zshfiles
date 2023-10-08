@@ -1,4 +1,5 @@
 # before
+source ~/.zshfiles/before/arch.zsh
 source ~/.zshfiles/before/tmux.zsh
 source ~/.zshfiles/before/p10k.zsh
 source ~/.zshfiles/before/zinit.zsh
@@ -30,3 +31,8 @@ for FILE in ~/.zshfiles/version_manager/*.zsh; do
   source "${FILE}"
 done
 
+
+export PATH="/opt/homebrew/opt/ruby/bin:$PATH"
+export LDFLAGS="-L/opt/homebrew/opt/ruby/lib"
+export CPPFLAGS="-I/opt/homebrew/opt/ruby/include"
+export PKG_CONFIG_PATH="/opt/homebrew/opt/ruby/lib/pkgconfig"
